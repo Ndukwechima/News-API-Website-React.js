@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.news-cards {
+  max-width: 94vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px 0px;
+  width: 30vw;
+  height: 60vh;
+  margin-top: 10vh;
+}
+figure {
+  max-width: 20vw;
+  min-height: 30vh;
+}
+
+.authur-div {
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+}
+figcaption img {
+  margin-top: 10px;
+}
+figcaption p {
+  color: rgb(103, 103, 103);
+}
+.authur {
+  display: flex;
+  align-items: center;
+}
+.authur :first-child {
+  color: rgb(156, 5, 5);
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+}
+.authur :last-child {
+  color: grey;
+  font-size: 9px;
+}
+small {
+  font-size: 9px;
+}
+small button {
+  color: white;
+  font-size: 10px;
+  background: rgb(156, 5, 5);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+.btn-read-more {
+  min-width: 30px;
+}
